@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #28377e;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.banner {
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.height {
+    min-height: 88vh;
+}
+
+.banner h1 {
+
+    color: #fff;
+
+    font-weight: 500;
+
+    font-size: 68px;
+
+    text-transform: uppercase;
+}
+
+.icon {
+
+    position: absolute;
+
+    left: 50%;
+
+    top: 85%;
+
+    color: #fff;
+
+    font-size: 22px;
+    animation: up-down 2s infinite;
+    animation-direction: alternate;
+    transition: .2s all ease-in-out;
+}
+
+@keyframes up-down {
+    0% {
+        top: 82%;
+
+    }
+
+    100% {
+        top: 88%;
+
+    }
+}
+
+.WhoWeAre {
+
+    padding: 100px 0px;
+}
+
+
+
+.whowetext span {
+
+    display: block;
+
+    height: 3px;
+
+    width: 44px;
+
+    background-color: #f05428;
+
+    margin-bottom: 12px;
+
+    margin-top: 25px;
+}
+
+.whowetext h2 {
+
+    text-transform: uppercase;
+
+    font-size: 30px;
+
+    color: #28377e;
+
+    padding-bottom: 12px;
+}
+
+.whowetext p {
+
+    color: #b0b0b1;
+
+    font-size: 14px;
+}
+
+.WhatWeDo {
+
+    background-color: #f7f8f8;
+
+    background-image: url(../images/what-we-do.png);
+
+    background-repeat: no-repeat;
+
+    background-position: bottom right;
+
+    background-size: 64%;
+
+    padding: 30px 0;
+}
+
+.whatwedotext span {
+
+    display: block;
+
+    height: 3px;
+
+    width: 44px;
+
+    background: #f2612c;
+
+    margin: auto;
+}
+
+.whatwedotext h1 {
+
+    text-transform: uppercase;
+
+    font-size: 30px;
+
+    color: #28377e;
+
+    padding-bottom: 77px;
+
+    padding-top: 7px;
+
+    text-align: center;
+}
+
+.item {
+    position: relative;
+
+}
+
+.item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#28377e+0,28377e+100&0.25+0,0.82+85,1+100 */
+    background: -moz-linear-gradient(top, rgba(40, 55, 126, 0.25) 0%, rgba(40, 55, 126, 0.82) 85%, rgba(40, 55, 126, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(40, 55, 126, 0.25) 0%, rgba(40, 55, 126, 0.82) 85%, rgba(40, 55, 126, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(40, 55, 126, 0.25) 0%, rgba(40, 55, 126, 0.82) 85%, rgba(40, 55, 126, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4028377e', endColorstr='#28377e', GradientType=0);
+    /* IE6-9 */
+    ;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+.item:hover::before {
+    opacity: 1;
+
+}
+
+.contentpart {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+.item:hover .contentpart {
+    opacity: 1;
+    top: 50%;
+
+}
+
+.contentpart h1 {
+
+    color: #fff;
+
+    text-transform: uppercase;
+
+    font-size: 30px;
+
+    text-align: center;
+}
+
+.iconpart {
+
+    position: absolute;
+
+    bottom: 12%;
+    right: 70%;
+
+    transform: translate(-50%, -12%);
+
+    color: #fff;
+
+    font-size: 20px;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+.item:hover .iconpart {
+    opacity: 1;
+    right: 45%;
+
+}
+
+.ourteam {
+    background-image: url(../images/our-team.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.mainteam {
+    padding-top: 150px;
+}
+
+.teamcontent {
+
+    padding-top: 109px;
+}
+
+.teamcontent span {
+
+    display: block;
+
+    height: 3px;
+
+    width: 44px;
+
+    background: #f2612c;
+
+    margin-bottom: 15px;
+}
+
+.teamcontent h1 {
+
+    color: #fff;
+
+    width: 20px;
+
+    padding-bottom: 13px;
+}
+
+.teamcontent p {
+
+    color: #929dcf;
+}
+
+.btnmain {
+
+    color: #f2612c;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    border: none;
+
+    cursor: pointer;
+
+    padding: 0;
+}
+
+.btnmain:hover {
+    color: #fff;
+}
+
+.teamimgmain {}
+
+.imageteam {
+    position: relative;
+
+}
+
+.imageteam::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+100,7db9e8+100,28377e+100&0+1,0+1,0.78+100 */
+    background: -moz-linear-gradient(top, rgba(40, 55, 126, 0) 1%, rgba(40, 55, 126, 0.78) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(40, 55, 126, 0) 1%, rgba(40, 55, 126, 0.78) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(40, 55, 126, 0) 1%, rgba(40, 55, 126, 0.78) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0028377e', endColorstr='#c728377e', GradientType=0);
+    /* IE6-9 */
+    opacity: 0;
+
+}
+
+.imageteam:hover::before {
+    opacity: 1;
+}
+
+.content {
+
+    position: absolute;
+
+    left: 10%;
+
+    top: 78%;
+
+    width: 200px;
+
+    text-align: start;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+.content h3 {
+
+    color: #fff;
+}
+
+.imageteam:hover .content {
+    opacity: 1;
+    top: 82%;
+
+}
+
+.thelangu {}
+
+.langutext {}
+
+.langutext span {
+
+    display: block;
+
+    height: 3px;
+
+    width: 44px;
+
+    background-color: #f05428;
+    margin: auto;
+}
+
+.langutext h1 {
+
+    text-transform: uppercase;
+
+    padding-top: 11px;
+
+    color: #28377e;
+
+    font-size: 33px;
+
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.langmain {}
+
+.langmain h2 {
+
+    color: #464c87;
+
+    text-transform: uppercase;
+
+    font-size: 20px;
+
+    font-weight: 700;
+}
+
+.langmain p {
+
+    color: #b1b0b1;
+
+    font-size: 15px;
+
+    padding-top: 13px;
+}
+
+.custombtn {
+
+    padding: 0;
+
+    color: #f26a2f;
+
+    border: none;
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+.custombtn:hover {
+    color: #464c87;
+}
+
+.contact {
+    background-color: #28377e;
+    padding-top: 20px;
+    margin-top: 80px;
+    min-height: 88vh;
+}
+
+.contactmain span {
+    display: block;
+
+    height: 3px;
+
+    width: 44px;
+
+    background-color: #f05428;
+    margin: auto;
+
+
+}
+
+.contactmain h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.mainform {}
+
+.mainform form {}
+
+.mainform form input {
+
+    padding: 10px 0;
+
+    width: 100%;
+
+    margin-bottom: 40px;
+
+    border: none;
+
+    background-color: transparent;
+
+    border-bottom: 1px solid #7f7c7c;
+
+    color: #fff;
+
+    outline: none;
+}
+
+.mainform form textarea {
+    padding: 10px 0;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #7f7c7c;
+    color: #fff;
+    outline: none;
+    height: 52px
+}
+
+.mainform form textarea::placeholder {
+    color: #fff;
+}
+
+.mainform form input::placeholder {
+    color: #fff;
+}
+
+.formbtn {
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #f2622c;
+    background-color: #f2622c;
+    width: 36%;
+    margin-top: 46px;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+    margin-left: 31%;
+}
+
+.formbtn:hover {
+    background-color: transparent;
+    border: 1px solid #f2622c;
+    color: #fff;
+}
+
+.footer {
+    background-color: #0c1234;
+}
+
+.maifooter {
+
+    align-items: center;
+}
+.maifooter2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftside P {
+
+    color: #616ca8;
+    font-size: 13px;
+}
+
+
+.social ul {
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: end;
+}
+
+.social ul li {
+    color: #b1b7dd;
+    padding: 12px;
+    
+}
+
+.social ul li a {}

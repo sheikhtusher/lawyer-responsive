@@ -1,0 +1,148 @@
+@media(max-width:576px){
+
+    .nav-item{
+        margin: auto;
+
+    }
+
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+    .banner h1{
+        font-size: 55px;
+    }
+
+    .whoweimg{
+        text-align: center !important;
+        margin-top: 10px;
+    }
+    .btnmain{
+        margin-bottom: 15px;
+    }
+
+    .itemmain{
+        margin-bottom: 20px;
+    }
+    .langmain {
+        margin-top: 16px;
+    }
+
+    .formbtn{
+        margin-bottom: 15px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .nav-item{
+        margin: auto;
+
+    }
+
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+    .banner h1{
+        font-size: 53px;
+    }
+
+    .whoweimg{
+        text-align: center !important;
+        margin-top: 10px;
+    }
+    .btnmain{
+        margin-bottom: 15px;
+    }
+
+    .itemmain{
+        margin-bottom: 20px;
+    }
+    .langmain {
+        margin-top: 16px;
+    }
+
+    .formbtn{
+        margin-bottom: 15px;
+    }
+
+}
+
+@media(max-width:991px){
+
+    .nav-item{
+        margin: auto;
+
+    }
+
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+    .banner h1{
+        font-size: 40px;
+    }
+
+    .whoweimg{
+        text-align: center !important;
+        margin-top: 10px;
+    }
+    .btnmain{
+        margin-bottom: 15px;
+    }
+
+    .itemmain{
+        margin-bottom: 20px;
+    }
+    .langmain {
+        margin-top: 16px;
+    }
+
+    .formbtn{
+        margin-bottom: 15px;
+    }
+
+    .imageteam:hover .content {
+        opacity: 1;
+        top: 70%;
+    }
+
+}
+
+@media(max-width:1199px){
+    .nav-item{
+        margin: auto;
+
+    }
+
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+    .banner h1{
+        font-size: 50px;
+    }
+
+    .whoweimg{
+        text-align: center !important;
+        margin-top: 10px;
+    }
+    .btnmain{
+        margin-bottom: 15px;
+    }
+
+    .itemmain{
+        margin-bottom: 20px;
+    }
+    .langmain {
+        margin-top: 16px;
+    }
+
+    .formbtn{
+        margin-bottom: 15px;
+    }
+
+    .imageteam:hover .content {
+        opacity: 1;
+        top: 70%;
+    }
+
+}
